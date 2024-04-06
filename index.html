@@ -3,73 +3,52 @@
 <head>
     <title>Meine Lieblingstiere</title>
     <link rel="stylesheet" href="assets/CSS/fontface.css">
-    <style>
-        * {
-            margin: 0;
-        }
-
-        .tier-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-        }
-
-        .tier-teaser {
-            overflow: hidden;
-        }
-
-        .tier-teaser-image-container {
-            aspect-ratio: 16 / 9;
-            position: relative;
-        }
-
-        .tier-teaser-image-container img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-    </style>
+    <link rel="stylesheet" href="assets/CSS/main.css">
 </head>
 
 <body>
-     <h1>Meine Lieblingstiere</h1>
-     <div class="tier-grid">
-        <div class="tier-teaser">
+    <div class="tier-wrapper">
+        <h1>Meine Lieblingstiere</h1>
+        <div class="tier-grid">
+           <div class="tier-teaser">
+               <div class="tier-teaser-image-container">
+                   <img src="assets/img/PotbellySeahorse_TNAquarium.jpg" alt="Zwei trächtige Seepferdchen">
+               </div>
+               <div class="tier-teaser-text-container">
+                   <h2>Seepferdchen</h2>
+                   <p>Hier findest du alle Informationen zum Seepferd</p>
+                   <a href="seepferdchen.html">
+                       <button>Jetzt lesen</button>
+                   </a>                
+               </div>
+           </div>
+           <div class="tier-teaser">
             <div class="tier-teaser-image-container">
-                <img src="assets/img/PotbellySeahorse_TNAquarium.jpg" alt="Zwei trächtige Seepferdchen">
-            </div>
-            <div>
-                <h2>Seepferdchen</h2>
-                <p>Hier findest du alle Informationen zum Seepferdchen</p>
-                <a href="seepferdchen.html">
-                    <button>Jetzt lesen</button>
-                </a>                
-            </div>
+                   <img src="assets/img/Nile_crocodile_head.jpg" alt="Zwei trächtige Seepferdchen">
+               </div>
+               <div class="tier-teaser-text-container">
+                   <h2>Krokodil</h2>
+                   <p>Hier findest du alle Informationen zum Krokodil</p>
+                   <a href="#">
+                       <button>Jetzt lesen</button>
+                   </a>                
+               </div>
+           </div>
+           <div class="tier-teaser">
+               <div class="tier-teaser-image-container">
+                   <img src="assets/img/Apteryx_mantelli_-Rotorua,_North_Island,_New_Zealand-8a.jpg" alt="Zwei trächtige Seepferdchen">
+               </div>
+               <div class="tier-teaser-text-container">
+                   <h2>Kiwi</h2>
+                   <p>Hier findest du alle Informationen zum Kiwi</p>
+                   <a href="#">
+                       <button>Jetzt lesen</button>
+                   </a>                
+               </div>
+           </div>
         </div>
-        <div class="tier-teaser">
-            <div>
-                <img src="assets/img/Nile_crocodile_head.jpg" alt="Zwei trächtige Seepferdchen">
-            </div>
-            <div>
-                <h2>Krokodil</h2>
-                <p>Hier findest du alle Informationen zum Krokodil</p>
-                <a href="#">
-                    <button>Jetzt lesen</button>
-                </a>                
-            </div>
-        </div>
-        <div class="tier-teaser">
-            <div>
-                <img src="assets/img/Apteryx_mantelli_-Rotorua,_North_Island,_New_Zealand-8a.jpg" alt="Zwei trächtige Seepferdchen">
-            </div>
-            <div>
-                <h2>Kiwi</h2>
-                <p>Hier findest du alle Informationen zum Kiwi</p>
-                <a href="#">
-                    <button>Jetzt lesen</button>
-                </a>                
-            </div>
-        </div>
-     </div>
+    </div>
+
 </body>
 
 </html>

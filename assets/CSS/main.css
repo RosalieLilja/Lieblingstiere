@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: normal;
+    font-family: Figtree, sans-serif;
+    color: rgb(70, 70, 70);
+}
+
+body {
+    background-color: aliceblue;
+}
+
+h1,
+h2 {
+    font-family: Anton, sans-serif;
+}
+
+.tier-wrapper {
+    width: 100%;
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+.tier-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.tier-teaser {
+    overflow: hidden;
+    background-color: white;
+    border: 1px solid rgb(247, 247, 247);
+    border-radius: 10px;
+}
+
+.tier-teaser-image-container {
+    aspect-ratio: 16 / 9;
+}
+
+.tier-teaser-image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.tier-teaser-text-container {
+    padding: 15px;
+}
+
+.tier-teaser-text-container h2 {
+    margin-bottom: 10px;
+    line-height: 1;
+}
+
+button {
+    border-radius: 20px;
+    background-color: rgb(21, 167, 87);
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: all 500ms;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.tier-single-header {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.tier-single-header img {
+    width: 50%;
+}
+
+.tier-single p, .tier-single ol {
+    margin-bottom: 15px;
+}
+
+.tier-single h2, .tier-single h1 {
+    margin-bottom: 10px;
+}
